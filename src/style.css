@@ -1,0 +1,68 @@
+/** Classes **/ 
+
+body.bg {
+    background-color: #FFE5D6;
+}
+
+div.bg {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+
+    background-color: #928680;
+    opacity: 50%;
+    margin: -15px 15% 0% 15%;
+    padding: 1.25% 0% 1.25% 0%;
+    height: 110%;
+    width: 70%;
+    position: absolute;
+    text-align: center;
+}
+
+ 
+div.mg {
+    background-color: #BEBEBE;
+    opacity: 80%;
+    width: auto;
+    border-radius: 10px;
+    margin: 1.25%;
+
+    display: flex;
+    flex-flow: column;
+}
+
+.button-container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 1.25%;
+}
+
+.button {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #45509B;
+    background-blend-mode:color;
+    height: 80%;
+    width: 12%;
+    margin: 3px 5px 3px 5px;
+    border-radius: 10px;
+}
+
+.button-text {
+    display: flex;
+    color: #BEBEBE;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.button:hover {
+    height: 81%;
+    width: 13%;
+}
