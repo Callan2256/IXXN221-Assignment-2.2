@@ -20,7 +20,7 @@ div.bg {
 
  
 div.mg {
-    background-color: rgba(190, 190, 190, 0.5);
+    background-color: rgba(231, 200, 187, 0.6);
     width: auto;
     border-radius: 10px;
     margin: 1.25%;
@@ -33,7 +33,6 @@ div.mg {
     display: flex;
     flex-flow: row nowrap;
     align-content: center;
-    position: relative;
     height: 100%;
     width: 100%;
     padding: 1.25%;
@@ -48,20 +47,31 @@ div.mg {
     
     height: 80%;
     width: 12%;
-    margin: 3px 5px 3px 5px;
+    margin: auto 5px auto 5px ;
     border-radius: 10px;
 }
 
-.button-text {
-    display: flex;
-    color: #BEBEBE;
-}
+h2.button-text {
+    color: rgba(231, 200, 187, 0.6);
+    font-weight: 800;
+    font-family: sans-serif;
 
-h2 {
-    font-size: 20px;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .button:hover {
     height: 81%;
     width: 13%;
+
+    font-size: 102%;
+}
+
+.button_link {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    /*justify-content: center;*/
+    text-decoration: none;
 }
