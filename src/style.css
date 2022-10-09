@@ -1,7 +1,7 @@
 /** Classes **/ 
 
 body.bg {
-    background-color: #FFE5D6;
+    background-color: rgb(255, 229, 214);
 }
 
 div.bg {
@@ -9,8 +9,7 @@ div.bg {
     flex-flow: column;
     justify-content: space-around;
 
-    background-color: #928680;
-    opacity: 50%;
+    background-color: rgba(146, 134, 128, 0.5);
     margin: -15px 15% 0% 15%;
     padding: 1.25% 0% 1.25% 0%;
     height: 110%;
@@ -21,8 +20,7 @@ div.bg {
 
  
 div.mg {
-    background-color: #BEBEBE;
-    opacity: 80%;
+    background-color: rgba(190, 190, 190, 0.5);
     width: auto;
     border-radius: 10px;
     margin: 1.25%;
@@ -45,8 +43,9 @@ div.mg {
     display: flex;
     align-content: center;
     justify-content: center;
-    background-color: #45509B;
-    background-blend-mode:color;
+
+    background-color: rgba(83, 41, 100, 0.75);
+    
     height: 80%;
     width: 12%;
     margin: 3px 5px 3px 5px;
