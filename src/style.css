@@ -45,6 +45,8 @@ div.mg {
 
     background-color: rgba(83, 41, 100, 0.75);
     
+    flex-basis: auto;
+
     height: 80%;
     width: 12%;
     margin: auto 5px auto 5px ;
