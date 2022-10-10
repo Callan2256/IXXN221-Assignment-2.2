@@ -12,7 +12,7 @@ div.bg {
     background-color: rgba(146, 134, 128, 0.5);
     margin: -15px 15% 0% 15%;
     padding: 1.25% 0% 1.25% 0%;
-    height: 110%;
+    height: auto;
     width: 70%;
     position: absolute;
     text-align: center;
@@ -37,7 +37,6 @@ div.mg {
     align-items: center;
     height: 100%;
     width: 100%;
-    padding: 1.25%;
 }
 
 .button {
@@ -70,10 +69,11 @@ h2.button-text {
 }
 
 .button:hover {
-    height: 81%;
-    width: 13%;
+    height: calc(42px + 1vh);
+    width: calc(112px + 1.5vw);
 
-    font-size: 102%;
+    font-size:calc(12px + 0.7vw);
+    box-shadow: 2px 3px 5px rgb(53, 53, 53);
 }
 
 .button_link {
@@ -88,21 +88,46 @@ h2.button-text {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: aqua;
 
     justify-content: center;
     margin: auto;
     width: 95%
 } 
 
+/** Services Page **/
 .flex_container_col {
     display: flex;
     flex-direction: column;
-    background-color: crimson;
     width: 45%;
     height: calc(150px + 1.5vh);
     margin: 15px;
 } 
+
+/** Weapons Page **/
+.flex_container_col_WP {
+    display: flex;
+    flex-direction: column;
+    width: calc(200px + 1.5vh);
+    height: calc(200px + 1.5vh);
+    margin: 15px;
+} 
+
+.flex_container_col_WP:hover {
+    box-shadow: 5px 5px 8px rgb(88, 88, 88);
+} 
+
+.flex_container_col:hover {
+    box-shadow: 5px 5px 8px rgb(88, 88, 88);
+}
+
+.service_container_decor {
+    border-radius: 10px;
+    padding: 10px;
+    border: 4px solid rgba(83, 41, 100, 0.75);
+
+    font-family: sans-serif;
+    text-align: left;
+}
 
 .banner {
     width: 95%;
@@ -122,8 +147,8 @@ h2.button-text {
 .banner_text {
     font-size: calc(24px + 1.2vw);
     font-family: sans-serif;
-    
     color: rgba(231, 200, 187, 1);
+
     position: absolute;
     top: 60%;
     left: 50%;
