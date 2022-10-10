@@ -69,9 +69,6 @@ h2.button-text {
 }
 
 .button:hover {
-    height: calc(42px + 1vh);
-    width: calc(112px + 1.5vw);
-
     font-size:calc(12px + 0.7vw);
     box-shadow: 2px 3px 5px rgb(53, 53, 53);
 }
@@ -94,11 +91,20 @@ h2.button-text {
     width: 95%
 } 
 
-/** Services Page **/
+/** Home Page **/
 .flex_container_col {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 40%;
+    height: calc(150px + 1.5vh);
+    margin: 15px;
+} 
+
+/** Services Page **/
+.flex_container_col_SV {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
     height: calc(150px + 1.5vh);
     margin: 15px;
 } 
@@ -107,8 +113,8 @@ h2.button-text {
 .flex_container_col_WP {
     display: flex;
     flex-direction: column;
-    width: calc(200px + 1.5vh);
-    height: calc(200px + 1.5vh);
+    width: calc(200px + 1.5vw);
+    height: calc(200px + 1.5vw);
     margin: 15px;
 } 
 
@@ -116,17 +122,26 @@ h2.button-text {
     box-shadow: 5px 5px 8px rgb(88, 88, 88);
 } 
 
-.flex_container_col:hover {
+.flex_container_col_SV:hover {
     box-shadow: 5px 5px 8px rgb(88, 88, 88);
 }
 
-.service_container_decor {
+.container_decor {
     border-radius: 10px;
     padding: 10px;
     border: 4px solid rgba(83, 41, 100, 0.75);
 
     font-family: sans-serif;
     text-align: left;
+}
+
+.container_decor > h3 {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: left;
+    
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .banner {
