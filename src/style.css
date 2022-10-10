@@ -291,3 +291,12 @@ input[type=submit] {
 
     margin: auto auto auto auto;
 }
+
+p.para {
+    color: rgb(43, 43, 43);
+
+    font-family: sans-serif;
+    font-size:calc(5px + 0.3vw);
+
+    margin: 5px;
+}
