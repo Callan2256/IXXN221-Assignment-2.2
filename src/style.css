@@ -128,11 +128,11 @@ h2.button-text {
 
 .container_decor {
     border-radius: 10px;
-    padding: 10px;
     border: 4px solid rgba(83, 41, 100, 0.75);
 
     font-family: sans-serif;
     text-align: left;
+
 }
 
 .container_decor > h3 {
@@ -267,6 +267,7 @@ input[type=submit] {
 
 .form_submit:hover, input[type=submit]:hover {
     box-shadow: 3px 3px 3px rgb(66, 66, 66);
+    cursor: pointer;
 }
 
 .submitText {
@@ -276,4 +277,17 @@ input[type=submit] {
     font-size:calc(10px + 0.7vw);
 
     margin-top: 30%;
+}
+
+.choiceImage {
+    display: flex;
+
+    width: 95%;
+    height: 95%;
+
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid rgba(83, 41, 100, 0.75);
+
+    margin: auto auto auto auto;
 }
